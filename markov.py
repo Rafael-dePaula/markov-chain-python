@@ -7,5 +7,5 @@ d2 = ConditionalProbabilityTable([['sol', 'sol', 0.9],
 
 model = MarkovChain([d1, d2])
 
-for valor in model.sample(10):
+for valor in model.sample(100):
     print (valor)
