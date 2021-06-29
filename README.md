@@ -4,7 +4,7 @@ __Suposição de Markov__ diz que desde que o estado atual seja conhecido os est
 
 A __Cadeia de Markov__ é um processo estocástico onde dada uma sequencia de estados X1, X2, X3, ... de variáveis aleatórias, a probabilidade do estado Xn+1 pode ser calculada apenas baseada no estado Xn.
 
-   <img src="http://www.sciweavers.org/tex2img.php?eq=P%28X_%7Bn%2B1%7D%20%3D%20x%20%7C%20X_0%2C%20X_1%2C%20X_2%20...%20X_n%29%20%3D%20P%28X_%7Bn%2B1%7D%20%3D%20x%7CX_n%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="P(X_{n+1} = x | X_0, X_1, X_2 ... X_n) = P(X_{n+1} = x|X_n)" width="364" height="18" />
+   <img src="https://user-images.githubusercontent.com/78245128/123849098-cee71980-d8ee-11eb-91ba-1b5205a06664.png" align="cente" border="0" alt="P(X_{n+1} = x | X_0, X_1, X_2 ... X_n) = P(X_{n+1} = x|X_n)" width="364" height="18" />
 
 Ou seja para calcular um determinado estado Xn+1 na cadeia de markov basta que tenhamos o estado anterior (Xn) conhecido e conhecer as probabilidades de transição entre os estados dessa cadeia.
 
